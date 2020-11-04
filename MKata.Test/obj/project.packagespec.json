@@ -1,0 +1,57 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/ifeayelabola/Dev/Tests/Elekta/EquipmentReserve.API/MKata/MKata.Test/MKata.Test.csproj",
+    "projectName": "MKata.Test",
+    "projectPath": "/Users/ifeayelabola/Dev/Tests/Elekta/EquipmentReserve.API/MKata/MKata.Test/MKata.Test.csproj",
+    "outputPath": "/Users/ifeayelabola/Dev/Tests/Elekta/EquipmentReserve.API/MKata/MKata.Test/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "dependencies": {
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[16.5.0, )"
+        },
+        "NUnit": {
+          "target": "Package",
+          "version": "[3.12.0, )"
+        },
+        "NUnit3TestAdapter": {
+          "target": "Package",
+          "version": "[3.16.1, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
