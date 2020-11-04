@@ -19,6 +19,7 @@ namespace MKata.Test
         [SetUp]
         public void Setup()
         {
+            Assert.AreEqual(false, true );
         }
 
         [Test]
