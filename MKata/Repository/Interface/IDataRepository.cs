@@ -5,5 +5,6 @@ namespace MKata.Repository.Interface
     public interface IDataRepository
     {
         int UpdateCart(Product product);
+        double GetTotal();
     }
 }

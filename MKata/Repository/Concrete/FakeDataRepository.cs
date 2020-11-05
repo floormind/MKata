@@ -18,5 +18,17 @@ namespace MKata.Repository.Concrete
             _shoppingCart.Add(product);
             return _shoppingCart.Count;
         }
+
+        public double GetTotal()
+        {
+            var currentTotal = 0.0d;
+            
+            foreach (var product in _shoppingCart)
+            {
+                currentTotal += product.UnitPrice;
+            }
+
+            return currentTotal;
+        }
     }
 }

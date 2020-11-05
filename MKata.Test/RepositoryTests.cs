@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using MKata.Models;
 using MKata.Repository.Concrete;
 using MKata.Repository.Interface;
@@ -30,7 +31,6 @@ namespace MKata.Test
         {
             //arrange
             IDataRepository fakeDatabaseRepository = new FakeDataRepository();
-            var defaultShoppingCartItemsCount = 0;
 
             var product = new Product()
             {
@@ -42,6 +42,36 @@ namespace MKata.Test
             var sut = fakeDatabaseRepository.UpdateCart(product);
             //assert
             Assert.AreEqual(1, sut);
+        }
+
+        [Test]
+        public void Repository_Get_Total_Of_Cart_Items_Without_Discount()
+        {
+            //arrange
+            IDataRepository fakeDatabaseRepository = new FakeDataRepository();
+
+            var shoppingCard = new List<Product>()
+            {
+                new Product()
+                {
+                    UnitPrice = 5.00,
+                    SKU = "ABC"
+                },
+                new Product()
+                {
+                    UnitPrice = 3.00,
+                    SKU = "CDE"
+                }
+            };
+            
+            shoppingCard.ForEach(x => fakeDatabaseRepository.UpdateCart(x));
+            
+            //act
+
+            var sut = fakeDatabaseRepository.GetTotal();
+            //assert
+            
+            Assert.AreEqual(8.00d, sut);
         }
     }
 }
