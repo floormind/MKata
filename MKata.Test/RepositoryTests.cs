@@ -73,5 +73,11 @@ namespace MKata.Test
             
             Assert.AreEqual(8.00d, sut);
         }
+
+        [Test]
+        public void Repository_Get_Total_Of_Cart_Items_With_Discount()
+        {
+            Assert.AreEqual(false, true);
+        }
     }
 }
