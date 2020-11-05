@@ -17,7 +17,11 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/Users/ifeayelabola/Dev/Tests/Elekta/EquipmentReserve.API/MKata/MKata/MKata.csproj": {
+            "projectPath": "/Users/ifeayelabola/Dev/Tests/Elekta/EquipmentReserve.API/MKata/MKata/MKata.csproj"
+          }
+        }
       }
     },
     "warningProperties": {

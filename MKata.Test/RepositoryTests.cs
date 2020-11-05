@@ -1,3 +1,6 @@
+using MKata.Models;
+using MKata.Repository.Concrete;
+using MKata.Repository.Interface;
 using NUnit.Framework;
 
 namespace MKata.Test
@@ -19,13 +22,26 @@ namespace MKata.Test
         [SetUp]
         public void Setup()
         {
-            Assert.AreEqual(false, true );
         }
 
+        
         [Test]
-        public void Test1()
+        public void Repository_UpdateCart_Returns_Total_Of_Items_In_Cart()
         {
-            Assert.Pass();
+            //arrange
+            IDataRepository fakeDatabaseRepository = new FakeDataRepository();
+            var defaultShoppingCartItemsCount = 0;
+
+            var product = new Product()
+            {
+                UnitPrice = 1.00,
+                SKU = "ABC"
+            };
+            
+            //act
+            var sut = fakeDatabaseRepository.UpdateCart(product);
+            //assert
+            Assert.AreEqual(1, sut);
         }
     }
 }
