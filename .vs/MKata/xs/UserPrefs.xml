@@ -1,0 +1,53 @@
+﻿<Properties StartupConfiguration="{E58D95CB-C143-4B64-8B42-45D2B85EC31C}|Default">
+  <MonoDevelop.Ide.ItemProperties.MKata PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MKata/Helpers/Concrete/DefaultDiscountStrategy.cs">
+    <Files>
+      <File FileName="MKata.Test/RepositoryTests.cs" Line="110" Column="51" />
+      <File FileName="MKata/Repository/Concrete/FakeDataRepository.cs" Line="34" Column="48" />
+      <File FileName="MKata/Helpers/Concrete/DefaultDiscountStrategy.cs" Line="34" Column="1" />
+      <File FileName="MKata/Repository/Interface/IDataRepository.cs" Line="8" Column="18" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MKata" expanded="True">
+            <Node name="MKata" expanded="True">
+              <Node name="Helpers" expanded="True">
+                <Node name="Concrete" expanded="True">
+                  <Node name="DefaultDiscountStrategy.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Repository" expanded="True">
+                <Node name="Concrete" expanded="True" />
+                <Node name="Interface" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="MKata.Test" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="MKata" expanded="True">
+            <Node name="MKata.Test" expanded="True">
+              <Node name="MKata.Test" expanded="True">
+                <Node name="Tests" expanded="True">
+                  <Node name="Repository_Get_Total_Of_Cart_Items_With_Discount" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/ifeayelabola/Dev/Tests/Elekta/EquipmentReserve.API/MKata/MKata.Test/RepositoryTests.cs" relfile="MKata.Test/RepositoryTests.cs" line="85" column="1" />
+      <Breakpoint file="/Users/ifeayelabola/Dev/Tests/Elekta/EquipmentReserve.API/MKata/MKata/Helpers/Concrete/DefaultDiscountStrategy.cs" relfile="MKata/Helpers/Concrete/DefaultDiscountStrategy.cs" line="34" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,16 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=190b547e_002D9a66_002D4947_002D8128_002D3e8a64d78407/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Repository_Get_Total_Of_Cart_Items_With_Discount #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::A8CFED6A-2184-444E-A5F8-B10EC62A78B0::.NETCoreApp,Version=v3.1::MKata.Test.Tests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b69fd530_002Dff2b_002D49ad_002Dac7a_002Dbd968889e12b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Repository_Get_Total_Of_Cart_Items_With_Discount #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::A8CFED6A-2184-444E-A5F8-B10EC62A78B0::.NETCoreApp,Version=v3.1::MKata.Test.Tests.Repository_Get_Total_Of_Cart_Items_With_Discount&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f61eef2b_002D81ea_002D4a6e_002D9f50_002Dc9def8dd38d8/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Repository_Get_Total_Of_Cart_Items_With_Discount" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::A8CFED6A-2184-444E-A5F8-B10EC62A78B0::.NETCoreApp,Version=v3.1::MKata.Test.Tests.Repository_Get_Total_Of_Cart_Items_With_Discount&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

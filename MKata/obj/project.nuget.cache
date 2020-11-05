@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "J50ZrzgMjnEmke8UqGi33Zyr36cU+nPt/IRbhtm0Cc0CDh+y/3oo7sZZrYOXbIEOFFREI0VFjflrx36tCIvmWw==",
+  "success": true,
+  "projectFilePath": "/Users/ifeayelabola/Dev/Tests/Elekta/EquipmentReserve.API/MKata/MKata/MKata.csproj",
+  "expectedPackageFiles": [
+    "/Users/ifeayelabola/.nuget/packages/microsoft.aspnetcore.app.ref/3.0.1/microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

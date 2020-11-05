@@ -1,7 +1,10 @@
 using System.Collections.Generic;
+using MKata.Helpers.Concrete;
+using MKata.Helpers.Interface;
 using MKata.Models;
 using MKata.Repository.Concrete;
 using MKata.Repository.Interface;
+using Moq;
 using NUnit.Framework;
 
 namespace MKata.Test
@@ -18,6 +21,7 @@ namespace MKata.Test
     // Testing
     //    -> Create Product object
     //    -> Create a mechanism of applying the type of discount we want to apply
+    
     public class Tests
     {
         [SetUp]
@@ -30,7 +34,7 @@ namespace MKata.Test
         public void Repository_UpdateCart_Returns_Total_Of_Items_In_Cart()
         {
             //arrange
-            IDataRepository fakeDatabaseRepository = new FakeDataRepository();
+            IDataRepository fakeDatabaseRepository = new FakeDataRepository(new DefaultDiscountStrategy());
 
             var product = new Product()
             {
@@ -48,19 +52,19 @@ namespace MKata.Test
         public void Repository_Get_Total_Of_Cart_Items_Without_Discount()
         {
             //arrange
-            IDataRepository fakeDatabaseRepository = new FakeDataRepository();
+            IDataRepository fakeDatabaseRepository = new FakeDataRepository(new DefaultDiscountStrategy());
 
             var shoppingCard = new List<Product>()
             {
                 new Product()
                 {
                     UnitPrice = 5.00,
-                    SKU = "ABC"
+                    SKU = "A99"
                 },
                 new Product()
                 {
                     UnitPrice = 3.00,
-                    SKU = "CDE"
+                    SKU = "B15"
                 }
             };
             
@@ -77,7 +81,56 @@ namespace MKata.Test
         [Test]
         public void Repository_Get_Total_Of_Cart_Items_With_Discount()
         {
-            Assert.AreEqual(false, true);
+            //arrange
+            IDataRepository fakeDatabaseRepository = new FakeDataRepository(new DefaultDiscountStrategy());
+
+            var shoppingCart = new List<Product>()
+            {
+                new Product()
+                {
+                    UnitPrice = 0.50,
+                    SKU = "A99"
+                },
+                new Product()
+                {
+                    UnitPrice = 0.60,
+                    SKU = "C40"
+                },
+                new Product()
+                {
+                    UnitPrice = 0.50,
+                    SKU = "A99"
+                },
+                new Product()
+                {
+                    UnitPrice = 0.60,
+                    SKU = "C40"
+                },
+                new Product()
+                {
+                    UnitPrice = 0.30,
+                    SKU = "B15"
+                },
+                new Product()
+                {
+                    UnitPrice = 0.30,
+                    SKU = "B15"
+                },
+                new Product()
+                {
+                    UnitPrice = 0.50,
+                    SKU = "A99"
+                },
+            };
+            
+            shoppingCart.ForEach(x => fakeDatabaseRepository.UpdateCart(x));
+            
+            //act
+
+            var sut = fakeDatabaseRepository.GetTotal();
+            //assert
+            
+            Assert.AreEqual(2.95d, sut);
         }
     }
 }

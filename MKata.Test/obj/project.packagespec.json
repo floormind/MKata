@@ -37,6 +37,10 @@
           "target": "Package",
           "version": "[16.5.0, )"
         },
+        "Moq": {
+          "target": "Package",
+          "version": "[4.14.7, )"
+        },
         "NUnit": {
           "target": "Package",
           "version": "[3.12.0, )"
@@ -55,7 +59,16 @@
         "net48"
       ],
       "assetTargetFallback": true,
-      "warn": true
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.AspNetCore.App": {
+          "privateAssets": "none"
+        },
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
     }
   }
 }
