@@ -12,6 +12,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using MKata.Helpers.Concrete;
 using MKata.Helpers.Interface;
+using MKata.Repository.Concrete;
+using MKata.Repository.Interface;
 
 namespace MKata
 {
@@ -30,6 +32,7 @@ namespace MKata
             services.AddControllers();
 
             services.AddSingleton<IDiscountStrategy, DefaultDiscountStrategy>();
+            services.AddSingleton<IDataRepository, FakeDataRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
