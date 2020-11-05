@@ -22,19 +22,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MKata.Test/RepositoryTests.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="41" column="53" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
+            <state relative-caret-position="465">
+              <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
               <folding>
-                <marker date="1604534101142" expanded="true" signature="6:109" ph="..." />
-                <marker date="1604534101142" expanded="true" signature="131:1317" ph="{...}" />
-                <marker date="1604534101142" expanded="true" signature="138:664" ph="/* What ... */" />
-                <marker date="1604534101142" expanded="true" signature="687:1315" ph="{...}" />
-                <marker date="1604534101142" expanded="true" signature="737:757" ph="{...}" />
-                <marker date="1604534101142" expanded="true" signature="857:1309" ph="{...}" />
-                <marker date="1604534101142" expanded="true" signature="1073:1150" ph="{...}" />
+                <marker date="1604534352116" expanded="true" signature="6:109" ph="..." />
+                <marker date="1604534352116" expanded="true" signature="131:1324" ph="{...}" />
+                <marker date="1604534352116" expanded="true" signature="138:664" ph="/* What ... */" />
+                <marker date="1604534352116" expanded="true" signature="687:1322" ph="{...}" />
+                <marker date="1604534352116" expanded="true" signature="737:757" ph="{...}" />
+                <marker date="1604534352116" expanded="true" signature="857:1316" ph="{...}" />
+                <marker date="1604534352116" expanded="true" signature="1073:1150" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -53,16 +53,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MKata/Repository/Concrete/FakeDataRepository.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+            <state relative-caret-position="336">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding>
-                <marker date="1604534137299" expanded="true" signature="6:53" ph="..." />
-                <marker date="1604534137299" expanded="true" signature="90:283" ph="{...}" />
-                <marker date="1604534137299" expanded="true" signature="146:281" ph="{...}" />
-                <marker date="1604534137299" expanded="true" signature="199:275" ph="{...}" />
+                <marker date="1604534287621" expanded="true" signature="6:87" ph="..." />
+                <marker date="1604534287621" expanded="true" signature="124:511" ph="{...}" />
+                <marker date="1604534287621" expanded="true" signature="180:509" ph="{...}" />
+                <marker date="1604534287621" expanded="true" signature="278:347" ph="{...}" />
+                <marker date="1604534287621" expanded="true" signature="403:503" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -97,9 +98,9 @@
       <list>
         <option value="$PROJECT_DIR$/MKata.Test/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/MKata/Models/Product.cs" />
-        <option value="$PROJECT_DIR$/MKata.Test/RepositoryTests.cs" />
         <option value="$PROJECT_DIR$/MKata/Repository/Interface/IDataRepository.cs" />
         <option value="$PROJECT_DIR$/MKata/Repository/Concrete/FakeDataRepository.cs" />
+        <option value="$PROJECT_DIR$/MKata.Test/RepositoryTests.cs" />
       </list>
     </option>
   </component>
@@ -242,12 +243,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604531669892</updated>
-      <workItem from="1604531671149" duration="1622000" />
+      <workItem from="1604531671149" duration="1918000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1622000" />
+    <option name="totallyTimeSpent" value="1918000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -260,20 +261,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="NuGet" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Unit Tests" weight="0.32959184" />
       <window_info anchor="bottom" id="REST Client" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32959184" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info anchor="bottom" id="Build" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -316,22 +317,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MKata.Test/RepositoryTests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="41" column="53" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
-          <folding>
-            <marker date="1604534101142" expanded="true" signature="6:109" ph="..." />
-            <marker date="1604534101142" expanded="true" signature="131:1317" ph="{...}" />
-            <marker date="1604534101142" expanded="true" signature="138:664" ph="/* What ... */" />
-            <marker date="1604534101142" expanded="true" signature="687:1315" ph="{...}" />
-            <marker date="1604534101142" expanded="true" signature="737:757" ph="{...}" />
-            <marker date="1604534101142" expanded="true" signature="857:1309" ph="{...}" />
-            <marker date="1604534101142" expanded="true" signature="1073:1150" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MKata/Repository/Interface/IDataRepository.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -345,13 +330,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MKata/Repository/Concrete/FakeDataRepository.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+        <state relative-caret-position="336">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding>
-            <marker date="1604534137299" expanded="true" signature="6:53" ph="..." />
-            <marker date="1604534137299" expanded="true" signature="90:283" ph="{...}" />
-            <marker date="1604534137299" expanded="true" signature="146:281" ph="{...}" />
-            <marker date="1604534137299" expanded="true" signature="199:275" ph="{...}" />
+            <marker date="1604534287621" expanded="true" signature="6:87" ph="..." />
+            <marker date="1604534287621" expanded="true" signature="124:511" ph="{...}" />
+            <marker date="1604534287621" expanded="true" signature="180:509" ph="{...}" />
+            <marker date="1604534287621" expanded="true" signature="278:347" ph="{...}" />
+            <marker date="1604534287621" expanded="true" signature="403:503" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MKata.Test/RepositoryTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+          <folding>
+            <marker date="1604534352116" expanded="true" signature="6:109" ph="..." />
+            <marker date="1604534352116" expanded="true" signature="131:1324" ph="{...}" />
+            <marker date="1604534352116" expanded="true" signature="138:664" ph="/* What ... */" />
+            <marker date="1604534352116" expanded="true" signature="687:1322" ph="{...}" />
+            <marker date="1604534352116" expanded="true" signature="737:757" ph="{...}" />
+            <marker date="1604534352116" expanded="true" signature="857:1316" ph="{...}" />
+            <marker date="1604534352116" expanded="true" signature="1073:1150" ph="{...}" />
           </folding>
         </state>
       </provider>
